@@ -1,0 +1,148 @@
+
+.back{
+    background-image: url("./23241.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    
+}
+
+#navbar{
+    background-color: #363062;
+    color: white;
+    
+position: sticky;
+top: 0;
+    
+}
+
+.hcon{
+    margin-top: 200px;
+    color: aliceblue;
+    
+}
+
+.h1{
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+.h1 >h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.col-6 > p{
+    text-align: justify;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 10%;
+    font-style: italic;
+
+}
+.col-6 .img{
+    background-image: url(feat2.jpg);
+   height: 400px;
+   width: 110%;
+
+    background-size: cover;
+    background-position: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+
+   
+}
+
+
+
+/* FAQs */
+#faq{
+    max-width: 75%;
+    margin: auto;
+}
+ #faq > h1{
+    text-align: center;
+ }
+
+ .accordion{
+    background-color:#ffffff;
+    color: black;
+    cursor: pointer;
+    font-size: 2.0rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+
+ }
+
+ .para{
+    display: inline-block;
+    padding: 35px;
+ }
+ .para p{
+    font-size: 1.6rem;
+    
+    line-height: 1.0;
+ }
+
+
+ /* footer */
+
+ .footer ul{
+    list-style: none;
+ }
+  .footer{
+   background-color: #363062;
+   padding: 0 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+
+  }
+  .footer-col{
+    width: 25%;
+    flex: 1;
+
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+color: #bbbbbb;
+display: block;  
+}
+.copy{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+    
+}
